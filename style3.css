@@ -1,0 +1,53 @@
+.one {
+    position: relative;
+    border: solid black 1px;
+    left: 600px;
+    top: 0px;
+    width: 600px;
+}
+.two {
+    position: relative;
+    border: solid black 1px;
+    overflow:overlay;
+    width: 500px;
+    top: 115px;
+}
+img {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 0px;
+    bottom:200px;
+}
+#logo-holder {position:relative; width:400px; height:125px; }
+#logo-holder .image,
+#logo-holder .text {transition: opacity 0.5s ease-in-out;}
+#logo-holder .text {position:absolute; top:0; left:0; opacity:0;}
+
+#logo-holder:hover .image {opacity:0;}
+#logo-holder:hover .text {opacity:1;}
+.image {
+    height: 150px;
+    width: 500px;
+    position: relative;
+    top: 0px;
+}
+.free {
+    position: relative;
+    left: 700px;
+    top: -40px;
+}
+.folk {
+        position: relative;
+        left: 700px;
+        top:30px;
+}
+.greco {
+    position: relative;
+    left: 700px;
+    top:125px;
+}
+.sin {
+    position: relative;
+    top: -150px;
+}

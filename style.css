@@ -1,0 +1,28 @@
+
+
+.one {
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+}
+.two {
+    border: 1px black solid;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+.three {
+    position: relative; 
+    margin: 5px;
+    left: -20px;
+}
+footer {
+    text-align: center;
+    position: relative;
+    top: 265px;
+}
+.card {
+    border:solid rgb(72,144,154);
+}
